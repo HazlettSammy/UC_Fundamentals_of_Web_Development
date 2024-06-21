@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #fff;
+    font-size: 36px;
+    background-color: #354b6f;
+    padding: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: disc;
+    text-align: left;
+    padding: 0;
+}
+
+li {
+    margin-left: 0;
+    padding: 5px;
+}
+
+nav {
+    background-color: #354b6f;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #354b6f;
+    color: #fff;
+    padding: 10px;
+    margin-top: auto;
+}
+
+#hours-of-operation {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+#hours-of-operation h2 {
+    color: #354b6f;
+}
+
+#hours-of-operation ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+
+#hours-of-operation li {
+    padding: 5px;
+}
+
+.hours-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.day {
+    flex-basis: calc(50% - 5px);
+    text-align: center;
+}
+
+#services {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#services h2 {
+    color: #354b6f;
+}
+
+#services ul {
+    padding: 0;
+}
+
+.service-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.service {
+    font-weight: bold;
+}
+
+#pricing {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#pricing h2 {
+    color: #354b6f;
+}
+
+#pricing ul {
+    padding: 0;
+}
+
+.pricing-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.price {
+    font-size: 20px;
+    color: #354b6f;
+}
+
+#contact {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#contact h2 {
+    color: #354b6f;
+}
+
+#contact p {
+    text-align: left;
+    font-size: 16px;
+    color: #354b6f;
+    margin: 10px 0;
+}
+
+#company-history {
+    text-align: left;
+}
+
+#company-history img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styles for Laundromat History Page */
+section {
+    margin-top: 20px;
+}
+
+section h2 {
+    color: #354b6f;
+    margin-bottom: 10px;
+}
+
+section p {
+    text-align: left;
+    font-size: 16px;
+    color: #354b6f;
+    margin: 10px 0;
+}
